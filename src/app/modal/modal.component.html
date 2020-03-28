@@ -1,0 +1,9 @@
+<div class="editmodal">
+  <h3>Edit Modal</h3>
+  <input type="text" [(ngModel)]="modalValue">
+
+  <div>
+    <button (click)="modalClose()" class="btn btn-danger">Close</button>
+    <button cdkFocusInitial (click)="save()" class="btn btn-success">Edit</button>
+  </div>
+</div>
